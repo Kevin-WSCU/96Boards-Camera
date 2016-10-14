@@ -14,7 +14,7 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 
 | 96Boards  | About | Options | 
 |:----:|:----:|:----:|
-| <img src="http://i.imgur.com/uKfxuu5.jpg" data-canonical-src="http://i.imgur.com/uKfxuu5.jpg" width="200" height="130" /><br> **HiKey** | Board based on HiSilicon Kirin 6220 processor  | [Documentation](HiKey/README.md)<br> |
+| <img src="https://goo.gl/photos/oUMasaFzHqgLwvVt6" data-canonical-src="http://i.imgur.com/uKfxuu5.jpg" width="200" height="130" /><br> **HiKey** | Board based on HiSilicon Kirin 6220 processor  | [Documentation](HiKey/README.md)<br> |
 | <img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="200" height="130" /><br> **DragonBoard 410c** | Board based on Qualcomm® Snapdragon™ 410 processor  | [Documentation](DragonBoard-410c/README.md)<br>|
 | <img src="http://i.imgur.com/u08Wb6U.png" data-canonical-src="http://i.imgur.com/u08Wb6U.png" width="200" height="130" /><br>**Bubblegum-96** | Board based on Actions Semi S900 Processor  | [Documentation](Bubblegum-96/README.md)<br> |
 <img src="http://i.imgur.com/ndacN8g.png" data-canonical-src="http://i.imgur.com/ndacN8g.png" width="200" height="130" /><br> **MediaTek X20** | Board based on MediaTek X20 Applications Processor  | [Documentation](MediaTekX20/README.md)<br> |
