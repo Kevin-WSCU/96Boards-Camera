@@ -2,7 +2,7 @@ This is the AiStarVsion MIPI Adapter(From AiStarVision) for Dragonboard410c,it s
 
 To build and flash dragonboard410c firmware,refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
 
-To buy the adapter board,go to http://www.ebay.com/itm/AiStarVsion-MIPI-Adapter-for-dragonboard410c-/131969841742?hash=item1eba03fa4e:g:m5oAAOSw-CpYADbX
+To get the adapter board,go to http://www.ebay.com/itm/AiStarVsion-MIPI-Adapter-for-dragonboard410c-/131969841742?hash=item1eba03fa4e:g:m5oAAOSw-CpYADbX
 
 
 ![img_1130](https://cloud.githubusercontent.com/assets/22780075/19402806/26b89706-9218-11e6-882d-5baf522bf82f.jpg)
