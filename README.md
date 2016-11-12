@@ -4,5 +4,8 @@ To build and flash dragonboard410c firmware,refer to https://builds.96boards.org
 
 To get the adapter board,go to http://www.ebay.com/itm/MIPI-Adapter-for-dragonboard410c-/131992582795
 
-https://github.com/Kevin-WSCU/documentation/blob/master/AiStarVsionshots/IMG_1158.jpg
+![img_1158](https://cloud.githubusercontent.com/assets/22780075/20242322/622107aa-a8df-11e6-8508-ac0eec8e28f5.jpg)
+![img_1159](https://cloud.githubusercontent.com/assets/22780075/20242325/6d597eea-a8df-11e6-9dd2-44e1b80be882.jpg)
+![img_1160](https://cloud.githubusercontent.com/assets/22780075/20242326/6f1fcd7e-a8df-11e6-8080-394b9ae794df.jpg)
+![img_1161](https://cloud.githubusercontent.com/assets/22780075/20242327/707e989e-a8df-11e6-8249-03ca21c4fe4b.jpg)
 
