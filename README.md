@@ -1,4 +1,4 @@
-This is the AiStarVsion MIPI Adapter(From AiStarVision) for Dragonboard410c,it's hardware compitable with other CE Edition 96boards.Our goal is to make Dragonboard support multiple cmos image sensors,include SOC sensor and raw data sensor.Currently we have OV5645 and OV5640 module supported,next it would be OV7251.(Global shutter,640*480@100fps)
+This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal of two csi2 port supporting.Still,it's only 96boards CE Edition.Our goal is to make Dragonboard support multiple CMOS image sensors,include SOC sensor and raw data sensor.Currently we have OV5645 and OV5640 module supported.
 
 To build and flash dragonboard410c firmware,refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
 
