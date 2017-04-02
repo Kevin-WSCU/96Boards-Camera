@@ -1,0 +1,591 @@
+/*
+ * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 and
+ * only version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+#include <dt-bindings/gpio/gpio.h>
+#include <dt-bindings/input/input.h>
+#include <dt-bindings/sound/apq8016-lpass.h>
+#include "msm8916.dtsi"
+#include "pm8916.dtsi"
+#include "apq8016-sbc-soc-pins.dtsi"
+#include "apq8016-sbc-pmic-pins.dtsi"
+#include "msm8916-mdss.dtsi"
+/ {
+	aliases {
+		serial0 = &blsp1_uart2;
+		serial1 = &blsp1_uart1;
+		usid0 = &pm8916_0;
+		i2c0	= &blsp_i2c2;
+		i2c1	= &blsp_i2c6;
+		i2c3	= &blsp_i2c4;
+		spi0	= &blsp_spi5;
+		spi1	= &blsp_spi3;
+	};
+
+	chosen {
+		stdout-path = "serial0";
+	};
+
+	smd {
+		rpm {
+			rpm_requests {
+				pm8916-regulators {
+
+					vdd_l1_l2_l3-supply = <&pm8916_s3>;
+					vdd_l5-supply = <&pm8916_s3>;
+					vdd_l4_l5_l6-supply = <&pm8916_s4>;
+					vdd_l7-supply = <&pm8916_s4>;
+
+					s1 {
+						regulator-min-microvolt = <375000>;
+						regulator-max-microvolt = <1562000>;
+
+					};
+					s2 {
+						regulator-min-microvolt = <375000>;
+						regulator-max-microvolt = <1562000>;
+
+					};
+					s3 {
+						regulator-min-microvolt = <375000>;
+						regulator-max-microvolt = <1562000>;
+
+					};
+					s4 {
+						regulator-min-microvolt = <1800000>;
+						regulator-max-microvolt = <1800000>;
+
+						regulator-always-on;
+						regulator-boot-on;
+					};
+
+					l1 {
+						regulator-min-microvolt = <375000>;
+						regulator-max-microvolt = <1525000>;
+
+					};
+					l2 {
+						regulator-min-microvolt = <375000>;
+						regulator-max-microvolt = <1525000>;
+
+					};
+					l3 {
+						regulator-min-microvolt = <375000>;
+						regulator-max-microvolt = <1525000>;
+
+					};
+					l4 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l5 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l6 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l7 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l8 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l9 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l10 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l11 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l12 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l13 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l14 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l15 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l16 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l17 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+					l18 {
+						regulator-min-microvolt = <1750000>;
+						regulator-max-microvolt = <3337000>;
+
+					};
+				};
+			};
+		};
+	};
+
+	soc {
+		serial@78af000 {
+			label = "LS-UART0";
+			status = "okay";
+			pinctrl-names = "default", "sleep";
+			pinctrl-0 = <&blsp1_uart1_default>;
+			pinctrl-1 = <&blsp1_uart1_sleep>;
+		};
+
+		serial@78b0000 {
+			label = "LS-UART1";
+			status = "okay";
+			pinctrl-names = "default", "sleep";
+			pinctrl-0 = <&blsp1_uart2_default>;
+			pinctrl-1 = <&blsp1_uart2_sleep>;
+		};
+
+		i2c@78b6000 {
+		/* On Low speed expansion */
+			label = "LS-I2C0";
+			status = "okay";
+		};
+
+		i2c@78b8000 {
+		/* On High speed expansion */
+			label = "HS-I2C2";
+			status = "okay";
+		};
+
+		i2c@78ba000 {
+		/* On Low speed expansion */
+			label = "LS-I2C1";
+			status = "okay";
+		};
+
+		spi@78b7000 {
+		/* On High speed expansion */
+			label = "HS-SPI1";
+			status = "okay";
+		};
+
+		spi@78b9000 {
+		/* On Low speed expansion */
+			label = "LS-SPI0";
+			status = "okay";
+		};
+
+		leds {
+			pinctrl-names = "default";
+			pinctrl-0 = <&msmgpio_leds>,
+				    <&pm8916_gpios_leds>,
+				    <&pm8916_mpps_leds>;
+
+			compatible = "gpio-leds";
+
+			led@1 {
+				label = "apq8016-sbc:green:user1";
+				gpios = <&msmgpio 21 GPIO_ACTIVE_HIGH>;
+				linux,default-trigger = "heartbeat";
+				default-state = "off";
+			};
+
+			led@2 {
+				label = "apq8016-sbc:green:user2";
+				gpios = <&msmgpio 120 GPIO_ACTIVE_HIGH>;
+				linux,default-trigger = "mmc0";
+				default-state = "off";
+			};
+
+			led@3 {
+				label = "apq8016-sbc:green:user3";
+				gpios = <&pm8916_gpios 1 GPIO_ACTIVE_HIGH>;
+				linux,default-trigger = "mmc1";
+				default-state = "off";
+			};
+
+			led@4 {
+				label = "apq8016-sbc:green:user4";
+				gpios = <&pm8916_gpios 2 GPIO_ACTIVE_HIGH>;
+				linux,default-trigger = "none";
+				default-state = "off";
+			};
+
+			led@5 {
+				label = "apq8016-sbc:yellow:wlan";
+				gpios = <&pm8916_mpps 2 GPIO_ACTIVE_HIGH>;
+				linux,default-trigger = "wlan";
+				default-state = "off";
+			};
+
+			led@6 {
+				label = "apq8016-sbc:blue:bt";
+				gpios = <&pm8916_mpps 3 GPIO_ACTIVE_HIGH>;
+				linux,default-trigger = "bt";
+				default-state = "off";
+			};
+		};
+
+		camera_vdddo_1v8: fixedregulator@0 {
+			compatible = "regulator-fixed";
+			regulator-name = "camera_vdddo";
+			regulator-min-microvolt = <1800000>;
+			regulator-max-microvolt = <1800000>;
+			regulator-always-on;
+		};
+
+		camera_vdda_2v8: fixedregulator@1 {
+			compatible = "regulator-fixed";
+			regulator-name = "camera_vdda";
+			regulator-min-microvolt = <2800000>;
+			regulator-max-microvolt = <2800000>;
+			regulator-always-on;
+		};
+
+		camera_vddd_1v5: fixedregulator@2 {
+			compatible = "regulator-fixed";
+			regulator-name = "camera_vddd";
+			regulator-min-microvolt = <1500000>;
+			regulator-max-microvolt = <1500000>;
+			regulator-always-on;
+		};
+	};
+
+	usb2513 {
+		compatible = "smsc,usb3503";
+		reset-gpios = <&pm8916_gpios 3 GPIO_ACTIVE_LOW>;
+		initial-mode = <1>;
+	};
+
+	usb_id: usb-id {
+		interrupt-parent = <&msmgpio>;
+		compatible = "linux,extcon-usb-gpio";
+		id-gpio = <&msmgpio 121 GPIO_ACTIVE_HIGH>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&usb_id_default>;
+	};
+
+	gpio_keys {
+		compatible = "gpio-keys";
+		#address-cells = <1>;
+		#size-cells = <0>;
+		autorepeat;
+
+		pinctrl-names = "default";
+		pinctrl-0 = <&msm_key_volp_n_default>;
+
+		button@0 {
+			label = "Volume Up";
+			linux,code = <KEY_VOLUMEUP>;
+			gpios = <&msmgpio 107 GPIO_ACTIVE_LOW>;
+		};
+	};
+};
+
+&camss {
+	ports {
+
+		#address-cells = <1>;
+		#size-cells = <0>;
+
+		port@0 {
+			reg = <0>;
+			csiphy0_ep:endpoint {
+				clock-lanes = <1>;
+				data-lanes = <0 2>;
+				qcom,settle-cnt = <0x0e>;
+				remote-endpoint = <&ov5645_ep>;
+			};
+		};
+
+/*
+		port@1 {
+			reg = <1>;
+			csiphy1_ep:endpoint {
+				clock-lanes = <1>;
+				data-lanes = <0 2>;
+				qcom,settle-cnt = <0x0e>;
+				remote-endpoint = <&ov5645_2_ep>;
+			};
+		};
+*/
+	};
+};
+
+&spmi_pon {
+	// Overwrite RESETIN_N keyboard scan code
+	linux,code = <KEY_VOLUMEDOWN>;
+};
+
+&blsp_dma {
+	status = "okay";
+};
+
+&blsp_spi3 {
+	status = "okay";
+};
+
+&sdhc_1 {
+	vmmc-supply = <&pm8916_l8>;
+	vqmmc-supply = <&pm8916_l5>;
+
+	pinctrl-names = "default", "sleep";
+	pinctrl-0 = <&sdc1_clk_on &sdc1_cmd_on &sdc1_data_on>;
+	pinctrl-1 = <&sdc1_clk_off &sdc1_cmd_off &sdc1_data_off>;
+	status = "okay";
+};
+
+&sdhc_2 {
+	vmmc-supply = <&pm8916_l11>;
+	vqmmc-supply = <&pm8916_l12>;
+
+	pinctrl-names = "default", "sleep";
+	pinctrl-0 = <&sdc2_clk_on &sdc2_cmd_on &sdc2_data_on &sdc2_cd_on>;
+	pinctrl-1 = <&sdc2_clk_off &sdc2_cmd_off &sdc2_data_off &sdc2_cd_off>;
+	#address-cells = <0>;
+	interrupt-parent = <&sdhc_2>;
+	interrupts = <0 1 2>;
+	#interrupt-cells = <1>;
+	interrupt-map-mask = <0xffffffff>;
+	interrupt-map = <0 &intc 0 125 0
+			1 &intc 0 221 0
+			2 &msmgpio 38 0>;
+	interrupt-names = "hc_irq", "pwr_irq", "status_irq";
+	cd-gpios = <&msmgpio 38 0x1>;
+
+	status = "okay";
+};
+
+&usb_dev {
+	extcon = <&usb_id>, <&usb_id>;
+	status = "okay";
+};
+
+&usb_host {
+	status = "okay";
+};
+
+&sdhc_1 {
+	status = "okay";
+};
+
+&usb_otg {
+	extcon = <&usb_id>, <&usb_id>;
+	dr_mode = "otg";
+	status = "okay";
+	switch-gpio = <&pm8916_gpios 4 GPIO_ACTIVE_HIGH>; // D+/D- lines: 1 - Routed to HUB, 0 - Device
+	pinctrl-names = "default";
+	pinctrl-0 = <&usb_sw_sel_pm>;
+};
+
+&blsp_i2c4 {
+	status = "ok";
+
+	adv_bridge: bridge@39 {
+		status = "ok";
+		compatible = "adi,adv7533";
+		reg = <0x39>;
+		interrupt-parent = <&msmgpio>;
+		interrupts = <31 2>;
+		avdd-supply = <&pm8916_l6>;
+		v3p3-supply = <&pm8916_l17>;
+		adi,dsi-lanes = <4>;
+		pd-gpios = <&msmgpio 32 0>;
+		pinctrl-names = "default","sleep";
+		pinctrl-0 = <&adv7533_int_active &adv7533_switch_active>;
+		pinctrl-1 = <&adv7533_int_suspend &adv7533_switch_suspend>;
+		#sound-dai-cells = <1>;
+
+		port {
+			adv_in: endpoint {
+				remote-endpoint = <&dsi_out>;
+			};
+		};
+
+	};
+};
+
+&blsp_i2c6 {
+	status = "ok";
+
+	camera_rear@76 {
+		compatible = "ovti,ov5645";
+		reg = <0x76>;
+
+		enable-gpios = <&msmgpio 34 0>;
+		reset-gpios = <&msmgpio 35 1>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&camera_rear_default>;
+
+		clocks = <&gcc GCC_CAMSS_MCLK0_CLK>;
+		clock-names = "xclk";
+		clock-frequency = <23880000>;
+
+		vdddo-supply = <&camera_vdddo_1v8>;
+		vdda-supply = <&camera_vdda_2v8>;
+		vddd-supply = <&camera_vddd_1v5>;
+
+		port {
+			ov5645_ep: endpoint {
+				clock-lanes = <1>;
+				data-lanes = <0 2>;
+				remote-endpoint = <&csiphy0_ep>;
+			};
+		};
+	};
+
+/*
+	camera_front@74 {
+		compatible = "ovti,ov5645";
+		reg = <0x74>;
+
+		enable-gpios = <&msmgpio 33 0>;
+		reset-gpios = <&msmgpio 28 1>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&camera_front_default>;
+
+		clocks = <&gcc GCC_CAMSS_MCLK1_CLK>;
+		clock-names = "xclk";
+		clock-frequency = <23880000>;
+
+		vdddo-supply = <&camera_vdddo_1v8>;
+		vdda-supply = <&camera_vdda_2v8>;
+		vddd-supply = <&camera_vddd_1v5>;
+
+		port {
+			ov5645_2_ep: endpoint {
+				clock-lanes = <1>;
+				data-lanes = <0 2>;
+				remote-endpoint = <&csiphy1_ep>;
+			};
+		};
+	};
+*/
+};
+
+&mdss_dsi0 {
+	status = "ok";
+
+	port {
+		dsi_out: endpoint {
+			remote-endpoint = <&adv_in>;
+		};
+	};
+};
+
+&lpass {
+	status = "okay";
+};
+
+&wcd_codec {
+	status = "okay";
+	clocks = <&gcc GCC_CODEC_DIGCODEC_CLK>;
+	clock-names = "mclk";
+	qcom,lpass-codec-core = <&lpass_codec_core>;
+};
+	/*
+	Internal Codec
+		playback - Primary MI2S
+		capture - Ter MI2S
+
+	External Primary:
+		playback - secondary MI2S
+		capture - Quat MI2S
+
+	External Secondary:
+		playback - Quat MI2S
+		capture - Quat MI2S
+	*/
+&sound {
+	status = "okay";
+	pinctrl-0 = <&cdc_pdm_lines_act &ext_sec_tlmm_lines_act &ext_mclk_tlmm_lines_act>;
+	pinctrl-1 = <&cdc_pdm_lines_sus &ext_sec_tlmm_lines_sus &ext_mclk_tlmm_lines_sus>;
+	pinctrl-names = "default", "sleep";
+	qcom,model = "DB410c";
+	qcom,audio-routing =
+		"AMIC1", "MIC BIAS External",
+		"AMIC2", "MIC BIAS Internal2",
+		"AMIC3", "MIC BIAS External",
+		"DMIC1", "MIC BIAS Internal1";
+
+	/* External Primary or External Secondary -ADV7533 HDMI */
+	external-dai-link@0 {
+		link-name = "ADV7533";
+
+		cpu { /* QUAT */
+			sound-dai = <&lpass MI2S_QUATERNARY>;
+		};
+		codec {
+			sound-dai = <&adv_bridge 0>;
+		};
+	};
+
+	internal-codec-playback-dai-link@0 {		/* I2S - Internal codec */
+		link-name = "WCD";
+		cpu { /* PRIMARY */
+			sound-dai = <&lpass MI2S_PRIMARY>;
+		};
+		codec {
+			sound-dai = <&wcd_codec 0>;
+		};
+	};
+
+	internal-codec-capture-dai-link@0 {		/* I2S - Internal codec */
+		link-name = "WCD-Capture";
+		cpu { /* PRIMARY */
+			sound-dai = <&lpass MI2S_TERTIARY>;
+		};
+		codec {
+			sound-dai = <&wcd_codec 1>;
+		};
+	};
+
+};
+
+/* default regulators required for mezzanine boards */
+&pm8916_l15 {
+	regulator-always-on;
+};
+
+&vidc_rproc {
+	status = "okay";
+};
+
+&vidc {
+	status = "okay";
+};
