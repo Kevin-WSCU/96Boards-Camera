@@ -4,7 +4,7 @@ To build and flash dragonboard410c firmware,refer to https://builds.96boards.org
 
 To get this MIPI adapter board,go to http://www.ebay.com/itm/-/252845198835?ssPageName=STRK:MESE:IT
 
-To get OV5645 auto focus module,go to http://www.ebay.com/itm/OV5645-auto-focus-module/252839542435?_trksid=p2047675.c100005.m1851&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D2%26asc%3D40130%26meid%3D5dbd6403abd14cdf8f782bc52c00dbea%26pid%3D100005%26rk%3D1%26rkt%3D6%26sd%3D252839534661
+To get OV5645 auto focus module,go to http://www.ebay.com/itm/OV5645-auto-focus-module-/252844782263?hash=item3adeb932b7:g:YXUAAOSwsW9Y30ik
 
 1)Single camera support
 One OV5645/OV5640 auto focus module
