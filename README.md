@@ -1,6 +1,8 @@
 This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal of two CSI2 portS supporting.Still,it's only for 96boards CE Edition.Our goal is to make Dragonboard support multiple CMOS image sensors,include SOC sensor and raw data sensor.Currently we have OV5645 and OV5640 module supported.
 
-To build and flash dragonboard410c firmware,refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.09/
+To build and flash dragonboard410c firmware,refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.09/;please note that,the original Linaro 16.09 release removed camera nodes from device tree.To add camera support,use the updated apq8016-sbc.dtsi in this GitHub：Pre-built/Debian-16.09/ to replace the original one,then build.
+
+If you use Linaro 16.06 release,then don't need do anything else,the default release would support our camera.Linaro 16.06 release:https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
 
 To get this MIPI adapter board,go to http://www.ebay.com/itm/-/252845198835?ssPageName=STRK:MESE:IT
 
