@@ -8,7 +8,19 @@ For Linaro 16.09 release,refer to https://builds.96boards.org/releases/dragonboa
 
 If you use Linaro 16.06 release,then don't need do anything else,the default build would support our camera.Linaro 16.06 release:https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
 
-b)Get the hardware
+b)Camera Setup
+
+   Fisrt you need apt-get update then install v4l-utils,then cofigure the media device
+  
+media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
+
+media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY2X8/1920x1080],"msm_csiphy0":0[fmt:UYVY2X8/1920x1080],"msm_csid0":0[fmt:UYVY2X8/1920x1080],"msm_ispif0":0[fmt:UYVY2X8/1920x1080],"msm_vfe0_rdi0":0[fmt:UYVY2X8/1920x1080]'
+
+gst-launch-1.0 v4l2src ! glimagesink
+
+
+
+c)Get the hardware
 
 AISTARVISION MIPI adapter:http://www.ebay.com/itm/-/252845198835?ssPageName=STRK:MESE:IT
 
