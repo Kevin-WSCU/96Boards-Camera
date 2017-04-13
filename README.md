@@ -8,9 +8,9 @@ If you use Linaro 16.06 release,then don't need do anything else,the default bui
 
 b)Get the hardware
 
-To get this MIPI adapter board,go to http://www.ebay.com/itm/-/252845198835?ssPageName=STRK:MESE:IT
+AISTARVISION MIPI adapter:http://www.ebay.com/itm/-/252845198835?ssPageName=STRK:MESE:IT
 
-To get OV5645 auto focus module,go to http://www.ebay.com/itm/OV5645-auto-focus-module-/252844782263?hash=item3adeb932b7:g:YXUAAOSwsW9Y30ik
+OV5645 AUTO FOCUS Module:http://www.ebay.com/itm/OV5645-auto-focus-module-/252844782263?hash=item3adeb932b7:g:YXUAAOSwsW9Y30ik
 
 Here is for adapter + sensor module bundle:http://www.ebay.com/itm/96boards-MIPI-Adapter-with-OV5645-auto-focus-module-/252844782266?hash=item3adeb932ba:g:8z4AAOSwA29Y30WD
 
