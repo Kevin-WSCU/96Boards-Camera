@@ -12,7 +12,7 @@ AISTARVISION MIPI adapter:http://www.ebay.com/itm/-/252845198835?ssPageName=STRK
 
 OV5645 AUTO FOCUS Module:http://www.ebay.com/itm/OV5645-auto-focus-module-/252844782263?hash=item3adeb932b7:g:YXUAAOSwsW9Y30ik
 
-Here is for adapter + sensor module bundle:http://www.ebay.com/itm/96boards-MIPI-Adapter-with-OV5645-auto-focus-module-/252844782266?hash=item3adeb932ba:g:8z4AAOSwA29Y30WD
+CAMERA Bundle:http://www.ebay.com/itm/96boards-MIPI-Adapter-with-OV5645-auto-focus-module-/252844782266?hash=item3adeb932ba:g:8z4AAOSwA29Y30WD
 
 1>Single camera support
 One OV5645/OV5640 auto focus module
