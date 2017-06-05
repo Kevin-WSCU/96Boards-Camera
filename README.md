@@ -12,7 +12,7 @@ b)Get the hardware
 
 AISTARVISION MIPI adapter:http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?hash=item3ae20546f8:g:w1MAAOSw03lY5Aaf
 
-OV5645 AUTO FOCUS Module:http://www.ebay.com/itm/OV5645-auto-focus-module-/252844782263?hash=item3adeb932b7:g:YXUAAOSwsW9Y30ik
+OV5645 AUTO FOCUS Module:http://www.ebay.com/itm/OV5645-auto-focus-module-/252956491650?hash=item3ae561bf82:g:YXUAAOSwsW9Y30ik
 
 CAMERA Bundle:http://www.ebay.com/itm/96Boards-MIPI-Adapter-with-OV5645-auto-focus-module-/252956476095?ssPageName=STRK:MESE:IT
 
