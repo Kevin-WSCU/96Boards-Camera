@@ -2,10 +2,7 @@ This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal
 
 Sensor support list:
 
-1)OV5645
-2)OV5640
-3)OV7251
-4)MT9V024
+1)OV5645 2)OV5640 3)OV7251 4)MT9V024
 
 ![img_1920](https://cloud.githubusercontent.com/assets/22780075/25014460/b3ec0d7c-202c-11e7-958e-fe873ddf64c9.JPG)
 
