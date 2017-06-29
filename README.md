@@ -18,6 +18,8 @@ CAMERA KIT Bundle:http://www.ebay.com/itm/96Boards-MIPI-Adapter-with-OV5645-auto
 
 AISTARVISION MIPI adapter ONLY:http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?hash=item3ae20546f8:g:w1MAAOSw03lY5Aaf
 
+STEREO CAMERA KIT:http://www.ebay.com/itm/-/253009646380?ssPageName=STRK:MESE:IT
+
 OV5645 AUTO FOCUS Module:http://www.ebay.com/itm/OV5645-auto-focus-module-/252956491650?hash=item3ae561bf82:g:YXUAAOSwsW9Y30ik
 
 1>Single camera support
