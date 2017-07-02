@@ -1,4 +1,4 @@
-#dual ov5645 cameras,J3 and J4 on AISTARVISION MIPI Adapter V2.0
+#Dual ov5645 cameras,J3 and J4 on AISTARVISION MIPI Adapter V2.0,it won't work if any of the module is not properly connected.Both camera interfaces would share the same CCI bus,in our case,i2c2.
 
 OV5645 Camera on J3
 
