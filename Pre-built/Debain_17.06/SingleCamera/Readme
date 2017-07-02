@@ -1,8 +1,21 @@
-#Single ov5645 camera throught connector J3 or J4
+#single ov5645 camera through connector J3 or J4
 
 
 
-OV5645 Camera on J3
+Single OV5645 Camera on J3,with boot_db410.img
+
+#Setup media link
+media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
+
+#Configure media node properties
+media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY2X8/1920x1080],"msm_csiphy0":0[fmt:UYVY2X8/1920x1080],"msm_csid0":0[fmt:UYVY2X8/1920x1080],"msm_ispif0":0[fmt:UYVY2X8/1920x1080],"msm_vfe0_rdi0":0[fmt:UYVY2X8/1920x1080]'
+
+#Stream
+gst-launch-1.0 v4l2src ! glimagesink
+
+
+
+Single OV5645 Camera on J4,with boot_db410c_j4.img
 
 #Setup media link
 media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
