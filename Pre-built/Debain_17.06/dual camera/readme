@@ -1,22 +1,17 @@
 #Dual ov5645 cameras,J3 and J4 on AISTARVISION MIPI Adapter V2.0,it won't work if any of the module is not properly connected.
 #Both camera interfaces would share the same CCI bus,in our case,i2c2.
 
-OV5645 Camera on J3
+Dual OV5645 module on J3 and J4
 
 #Setup media link
 media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
+media-ctl -d /dev/media1 -l '"msm_csiphy1":1->"msm_csid1":0[1],"msm_csid1":1->"msm_ispif1":0[1],"msm_ispif1":1->"msm_vfe0_rdi1":0[1]'
 
 #Configure media node properties
 media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY2X8/1920x1080],"msm_csiphy0":0[fmt:UYVY2X8/1920x1080],"msm_csid0":0[fmt:UYVY2X8/1920x1080],"msm_ispif0":0[fmt:UYVY2X8/1920x1080],"msm_vfe0_rdi0":0[fmt:UYVY2X8/1920x1080]'
+media-ctl -d /dev/media1 -V '"ov5645 1-0074":0[fmt:UYVY2X8/1920x1080],"msm_csiphy1":0[fmt:UYVY2X8/1920x1080],"msm_csid1":0[fmt:UYVY2X8/1920x1080],"msm_ispif1":0[fmt:UYVY2X8/1920x1080],"msm_vfe0_rdi1":0[fmt:UYVY2X8/1920x1080]'
 
 #Stream
 gst-launch-1.0 v4l2src ! glimagesink
-
-
-OV5645 Camera on J4
-
-media-ctl -d /dev/media1 -l '"msm_csiphy1":1->"msm_csid1":0[1],"msm_csid1":1->"msm_ispif1":0[1],"msm_ispif1":1->"msm_vfe0_rdi1":0[1]'
-
-media-ctl -d /dev/media1 -V '"ov5645 1-0074":0[fmt:UYVY2X8/1920x1080],"msm_csiphy1":0[fmt:UYVY2X8/1920x1080],"msm_csid1":0[fmt:UYVY2X8/1920x1080],"msm_ispif1":0[fmt:UYVY2X8/1920x1080],"msm_vfe0_rdi1":0[fmt:UYVY2X8/1920x1080]'
 
 gst-launch-1.0 v4l2src device=/dev/video1 ! glimagesink
