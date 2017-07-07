@@ -1,8 +1,22 @@
-This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal of two CSI2 portS supporting.Still,it's only for 96boards CE Edition.Our goal is to make Dragonboard support multiple CMOS image sensors,include SOC sensor and raw data sensor.
+This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal of two CSI2 port support.Still,it's only for 96boards CE Edition.Our goal is to make Dragonboard support multiple CMOS image sensors,include SOC sensor and raw bayer sensor.
 
 Sensor support list:
 
-1)OV5645 2)OV5640 3)OV7251 4)MT9V024
+1)OV5645:2592*1944@15fps,1920*1080@30fps,1280*960@30fps
+
+2)OV5640:2592*1944@15fps,1920*1080@30fps,1280*960@30fps
+
+3)OV7251:640*480@100fps
+
+4)MT9V024 with Toshiba MIPI Bridge:752*480@60fps
+
+Driver under development:
+1) IMX185
+  1080P@60fps,ETA by 7/10/2017
+2) IMX274
+  4K@30fps,ETA by 7/22/2017
+3) AP0202+AR0230 with Toshiba MIPI bridge
+  Automotive,1080p@30fps,HDR,ETA by 7/31/2017
 
 ![img_1920](https://cloud.githubusercontent.com/assets/22780075/25014460/b3ec0d7c-202c-11e7-958e-fe873ddf64c9.JPG)
 
