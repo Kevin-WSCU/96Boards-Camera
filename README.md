@@ -13,8 +13,10 @@ Sensor support list:
 Driver under development:
 1) IMX185
   1080P@60fps,ETA by 7/10/2017
+  
 2) IMX274
   4K@30fps,ETA by 7/22/2017
+  
 3) AP0202+AR0230 with Toshiba MIPI bridge
   Automotive,1080p@30fps,HDR,ETA by 7/31/2017
 
