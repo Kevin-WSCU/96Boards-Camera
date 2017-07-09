@@ -1,0 +1,5 @@
+#Rear camera OV7251,on J3 of AISTARVISION MIPI Adapter
+
+sudo media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
+sudo media-ctl -d /dev/media1 -V '"ov7251 1-00c0":0[fmt:SRGGB10/640x480],"msm_csiphy0":0[fmt:SRGGB10/640x480],"msm_csid0":0[fmt:SRGGB10/640x480],"msm_ispif0":0[fmt:SRGGB10/640x480],"msm_vfe0_rdi0":0[fmt:SRGGB10/640x480]'
+v4l2-ctl --set-fmt-video=width=640,height=480,pixelformat=RG10 --stream-mmap --stream-count=1000 -d /dev/video0 
