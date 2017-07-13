@@ -10,14 +10,13 @@ Sensor support list:
 
 4)MT9V024 with Toshiba MIPI Bridge:752*480@60fps
 
+5)IMX185:1080p@60fps
+
 Driver under development:
-1) IMX185
-  1080P@60fps,ETA by 7/10/2017
-  
-2) IMX274
+1) IMX274
   4K@30fps,ETA by 7/22/2017
   
-3) AP0202+AR0230 with Toshiba MIPI bridge
+2) AP0202+AR0230 with Toshiba MIPI bridge
   Automotive,1080p@30fps,HDR,ETA by 7/31/2017
 
 ![img_1920](https://cloud.githubusercontent.com/assets/22780075/25014460/b3ec0d7c-202c-11e7-958e-fe873ddf64c9.JPG)
