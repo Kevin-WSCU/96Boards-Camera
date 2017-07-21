@@ -26,6 +26,8 @@ Documents release date
 
 2)IMX185 sensor board schematic,ETA by 7/31/2017
 
+3)OV7251/OV8865/OV13850 sensor board schematic,ETA by 7/31/2017
+
 
 ![img_1920](https://cloud.githubusercontent.com/assets/22780075/25014460/b3ec0d7c-202c-11e7-958e-fe873ddf64c9.JPG)
 
