@@ -1,0 +1,39 @@
+
+1.Android 5.1.1 image location
+
+http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/
+download dragonboard410c_sdcard_install_android-99.zip
+
+2.Source code
+
+** Qualcomm BSP
+
+https://developer.qualcomm.com/download/db410c/android_board_support_package_vla.br_.1.2.4-01810-8x16.0-3.zip
+
+** Aurora Code download guide
+
+https://developer.qualcomm.com/download/db410c/linux-android-software-build-and-installation-guide.pdf
+
+3.Modification
+    
+    1) Front camera
+
+        ** software:
+
+            modify: device/qcom/msm8916_64/init.target.rc: comment out the 'disabled' at line 76, to enable qcamerasvr.
+
+        ** hardware(refer to AISTARVISION MIPI Adapter V2.0_release.pdf):
+
+            ov5645 module is connected to J4 on MIPI adapter, connect I2C2_SDA/SCL to CAM2_SDA/SCL on MIPI adapter V2.0.
+            
+    2) Rear camera
+
+        ** software:
+
+            please use boot_ov5645_rear.img and libmmcamera_ov5645.so.
+
+        ** hardware(refer to AISTARVISION MIPI Adapter V2.0_release.pdf):
+
+            ov5645 module is connected to J3 on MIPI adapter, connect I2C2_SDA/SCL to CAM1_SDA/SCL on MIPI adapter V2.0.
+
+      
