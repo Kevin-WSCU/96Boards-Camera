@@ -12,21 +12,14 @@ Sensor support list:
 
 5)IMX185:1080p@60fps
 
+6)AP0202+AR0230:1080p@30fps,WDR
+
 Driver under development:
 
 1) IMX274
   4K@30fps,ETA by 7/22/2017~8/110/2017,delay due to camera board
   
-2) AP0202+AR0230 with Toshiba MIPI bridge
-  Automotive,1080p@30fps,HDR,ETA by 7/31/2017
   
-Documents release date
-
-1)MT9V024 MIPI sensor board schematic:ETA by 7/31/2017
-
-2)IMX185 sensor board schematic,ETA by 7/31/2017
-
-3)OV7251/OV8865/OV13850 sensor board schematic,ETA by 7/31/2017
 
 
 ![img_1920](https://cloud.githubusercontent.com/assets/22780075/25014460/b3ec0d7c-202c-11e7-958e-fe873ddf64c9.JPG)
