@@ -17,7 +17,9 @@ Sensor support list:
 Driver under development:
 
 1) IMX274
-  4K@30fps,ETA by 7/22/2017~8/110/2017,delay due to camera board
+  4K@30fps,ETA by 7/22/2017~8/30/2017,delay due to camera board
+  
+2) OV5648/OV8865/OV13850 for Android,ETA,by the end of August
   
   
 
