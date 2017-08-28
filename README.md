@@ -59,8 +59,10 @@ Two OV5645/OV5640 supported by AISTARVISION MIPI Adapter V2.0
 
 3>Camera boards
 
-a)
+a)OV5645/OV5640 camera board
 ![img_2603](https://user-images.githubusercontent.com/22780075/29755205-53cf2e82-8b49-11e7-94a3-ab23203a82e1.JPG)
+
+b)OV7251 camera board
 
 
 
