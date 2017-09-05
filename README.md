@@ -1,6 +1,10 @@
 This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal of two CSI2 port support.Still,it's only for 96boards CE Edition.Our goal is to make Dragonboard support multiple CMOS image sensors,include SOC sensor and raw bayer sensor.
 
-Sensor support list:
+Sensor sample drivers available in Debian 16.09 for Dragonboard410C
+
+https://github.com/Kevin-WSCU/Debian-169.git
+
+Support list:
 
 1)OV5645:2592*1944@15fps,1920*1080@30fps,1280*960@30fps
 
@@ -15,11 +19,8 @@ Sensor support list:
 6)AP0202+AR0230:1080p@30fps,WDR
 
 Driver under development:
-
-1) IMX274
-  4K@30fps,ETA by 7/22/2017~8/30/2017,delay due to camera board
   
-2) OV5648/OV8865/OV13850 for Android,ETA,by the end of August
+1) OV5648/OV8865/OV13850 for Android,ETA,by the end of August
 
 MIPI Adapter further update:V2.1,ETA,by the end of August
 
