@@ -39,7 +39,9 @@ a)Build and Flash
 
 Refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/  for more building information      Note that official release removed camera nodes from device tree.We provide pre-built binaries for you to test cameras boards and also device tree file if you want to build driver by yourself(If you use Linaro 16.06 release,then don't need do anything else,the default build would support our camera.Linaro 16.06 release:https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/)
 
-b)Get the hardware,please go to our Ebay store for more details(Camera adapter and all kinds of sensor boards available)
+b)Get the hardware
+
+Please go to our Ebay store for more details(Camera adapter and all kinds of sensor boards available)
 http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?ssPageName=STRK:MESE:IT
 
 1>Single camera support
