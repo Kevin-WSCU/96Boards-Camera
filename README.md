@@ -37,7 +37,9 @@ MIPI Adapter further update:V2.1,ETA,by the end of August
 
 a)Build and Flash
 
-Refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/  for more building information      Note that official release removed camera nodes from device tree.We provide pre-built binaries for you to test cameras boards and also device tree file if you want to build driver by yourself(If you use Linaro 16.06 release,then don't need do anything else,the default build would support our camera.Linaro 16.06 release:https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/)
+Refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/  for more building information      Note that official release removed camera nodes from device tree.We provide pre-built binaries for you to test cameras boards and also device tree file if you want to build driver by yourself
+
+Note:for Linaro 16.06 release,official build supports our camera OV5645,it's enabled in device tree by default
 
 b)Get the hardware
 
