@@ -37,9 +37,7 @@ MIPI Adapter further update:V2.1,ETA,by the end of August
 
 a)Build and Flash
 
-For Linaro 16.09 release,refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.09        Note that,the original Linaro 16.09 release removed camera nodes from device tree.To add camera support,use the updated apq8016-sbc.dtsi in this GitHub：Pre-built/Debian-16.09/ to replace the original one,then build.
-
-If you use Linaro 16.06 release,then don't need do anything else,the default build would support our camera.Linaro 16.06 release:https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
+Refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/  for more building information      Note that official release removed camera nodes from device tree.We provide pre-built binaries for you to test cameras boards and also device tree file if you want to build driver by yourself(If you use Linaro 16.06 release,then don't need do anything else,the default build would support our camera.Linaro 16.06 release:https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/)
 
 b)Get the hardware,please go to our Ebay store for more details(Camera adapter and all kinds of sensor boards available)
 http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?ssPageName=STRK:MESE:IT
