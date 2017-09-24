@@ -4,7 +4,7 @@ Sensor sample drivers available in Debian 16.09 for Dragonboard410C
 
 https://github.com/Kevin-WSCU/Debian-169.git
 
-Support list:
+Support list(Default on Debian):
 
 1)OV5645:2592*1944@15fps,1920*1080@30fps,1280*960@30fps
 
@@ -18,9 +18,10 @@ Support list:
 
 6)AP0202+AR0230:1080p@30fps,WDR
 
-Driver under development:
-  
-1) OV5648/OV8865/OV13850 for Android,ETA,by the end of August
+7)OV13850 supported by Android
+
+8)OV8865 supported by Android
+
 
 MIPI Adapter further update:V2.1,ETA,by the end of August
 
