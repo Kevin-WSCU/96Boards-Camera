@@ -1,8 +1,10 @@
 This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal of two CSI2 port support.Still,it's only for 96boards CE Edition.Our goal is to make Dragonboard support multiple CMOS image sensors,include SOC sensor and raw bayer sensor.
 
-Sensor sample drivers available in Debian 16.09 for Dragonboard410C
+Sensor sample drivers available in Debian 16.09 for Dragonboard410C.
 
 https://github.com/Kevin-WSCU/Debian-169.git
+
+Android sensor driver coming soon
 
 Support list(Default on Debian):
 
@@ -39,15 +41,8 @@ For Linaro 16.09 release,refer to https://builds.96boards.org/releases/dragonboa
 
 If you use Linaro 16.06 release,then don't need do anything else,the default build would support our camera.Linaro 16.06 release:https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
 
-b)Get the hardware
-
-CAMERA KIT Bundle:http://www.ebay.com/itm/96Boards-MIPI-Adapter-with-OV5645-auto-focus-module-/252956476095?ssPageName=STRK:MESE:IT
-
-AISTARVISION MIPI adapter ONLY:http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?hash=item3ae20546f8:g:w1MAAOSw03lY5Aaf
-
-STEREO CAMERA KIT:http://www.ebay.com/itm/-/253009646380?ssPageName=STRK:MESE:IT
-
-OV5645 AUTO FOCUS Module:http://www.ebay.com/itm/OV5645-auto-focus-module-/252956491650?hash=item3ae561bf82:g:YXUAAOSwsW9Y30ik
+b)Get the hardware,please go to our Ebay store for more details(Camera adapter and all kinds of sensor boards available)
+http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?ssPageName=STRK:MESE:IT
 
 1>Single camera support
 One OV5645/OV5640 auto focus module
