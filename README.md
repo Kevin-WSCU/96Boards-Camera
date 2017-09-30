@@ -24,8 +24,11 @@ Support list(Default on Debian):
 
 8)OV8865 supported by Android
 
+See our ebay store for available items:
+https://www.ebay.com/sch/aiwills-8/m.html?item=253133569033&rt=nc&_trksid=p2047675.l2562
 
-MIPI Adapter further update:V2.1,ETA,by the end of August
+
+MIPI Adapter further update:V2.1,ETA,by the end of September
 
 1) Flexibility
 2) Mechinical(mounting hole)
