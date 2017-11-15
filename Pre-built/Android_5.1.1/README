@@ -20,7 +20,9 @@ https://developer.qualcomm.com/download/db410c/linux-android-software-build-and-
 
         ** software:
 
-            modify: device/qcom/msm8916_64/init.target.rc: comment out the 'disabled' at line 76, to enable qcamerasvr.
+            1) modify: device/qcom/msm8916_64/init.target.rc: comment out the 'disabled' at line 76, to enable qcamerasvr.
+            2) make bootimage -j8
+            3) fastboot flash boot boot.img
 
         ** hardware(refer to AISTARVISION MIPI Adapter V2.0_release.pdf):
 
@@ -30,7 +32,12 @@ https://developer.qualcomm.com/download/db410c/linux-android-software-build-and-
 
         ** software:
 
-            please use boot_ov5645_rear.img and libmmcamera_ov5645.so.
+            1) please use boot_ov5645_rear.img and libmmcamera_ov5645.so.
+            2) fastboot flash boot boot_ov5645_rear.img
+            2) adb root
+            3) adb remount
+            4) adb push libmmcamera_ov5645.so vendor/lib
+            5) adb shell reboot
 
         ** hardware(refer to AISTARVISION MIPI Adapter V2.0_release.pdf):
 
