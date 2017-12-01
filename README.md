@@ -59,7 +59,7 @@ One OV5645/OV5640 auto focus module
 
 Two OV5645/OV5640 supported by AISTARVISION MIPI Adapter V2.0
 ![img_1966](https://cloud.githubusercontent.com/assets/22780075/24592212/ca0ae0e6-17c7-11e7-9c82-a632147f91d1.jpg)
-![img_2600](https://user-images.githubusercontent.com/22780075/29755167-8176956a-8b48-11e7-97b3-897652bd19ed.JPG)
+![img_2757](https://user-images.githubusercontent.com/22780075/33484871-1995d09e-d659-11e7-8f82-563af56a1372.jpg)
 
 3>Camera boards
 
