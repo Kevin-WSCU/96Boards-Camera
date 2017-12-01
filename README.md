@@ -67,6 +67,12 @@ a)OV5645/OV5640 camera board
 ![img_2603](https://user-images.githubusercontent.com/22780075/29755205-53cf2e82-8b49-11e7-94a3-ab23203a82e1.JPG)
 
 b)OV7251 camera board
+![img_3036](https://user-images.githubusercontent.com/22780075/33484593-d48f9d6e-d657-11e7-8bc2-e95f7a55fa2a.jpg)
+![img_3037](https://user-images.githubusercontent.com/22780075/33484594-d4a70c06-d657-11e7-93d9-1b4a8538450b.jpg)
 
+c)OV13850 camera board
+![img_3039](https://user-images.githubusercontent.com/22780075/33484595-d4bf315a-d657-11e7-8fdb-7c5f24f72d27.jpg)
 
+d)OV8865 camera board
+![img_3052](https://user-images.githubusercontent.com/22780075/33484596-d4d4db5e-d657-11e7-8e8b-168b933aff2a.jpg)
 
