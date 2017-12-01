@@ -4,7 +4,7 @@ Sensor sample drivers available in Debian 16.09 for Dragonboard410C.
 
 https://github.com/Kevin-WSCU/Debian-169.git
 
-Android sensor driver coming soon
+Android sensor drivers:Pre-built/Android_5.1.1/ 
 
 Support list(Default on Debian):
 
