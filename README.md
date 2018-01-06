@@ -29,7 +29,7 @@ Image sensor support list(Default on Debian):
 
 9)Raspberry PI camera support(OV5647 and IMX219) by Android
 
-Check our ebay store for available items: Deltavision Store on Ebay
+Check our ebay store for available items: [Deltavision Store on Ebay](https://www.ebay.com/sch/aiwills-8/m.html?item=252956476095&rt=nc&_trksid=p2047675.l2562)
 
 You can find pre-built sensor drivers for all avaiable cameras:[Pre-built](Pre-built)
 
