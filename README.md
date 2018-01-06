@@ -1,6 +1,8 @@
 This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal of two CSI2 port support.Still,it's only for 96boards CE Edition.Our goal is to make 96Boards support variety of image sensors,include SOC sensor and raw bayer sensor.
 
-P.S. AISTARVISION has joined DeltaVision team which has the same passion and mission to bring camera everywhere,making your project smarter than ever before.Take a look at our site:www.deltavision.io for more interesting cameras
+P.S. AISTARVISION has joined DeltaVision team which has the same passion and mission to bring camera everywhere,making your project smarter than ever before.Take a look at our site for more interesting cameras:
+
+https://www.deltavision.io
 
 Sensor sample drivers available in Debian 16.09 for Dragonboard410C.
 
