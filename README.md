@@ -8,9 +8,8 @@ Sensor sample drivers available in Debian 16.09 for Dragonboard410C.
 
 https://github.com/Kevin-WSCU/Debian-169.git
 
-Android sensor drivers:Pre-built/Android_5.1.1/ 
 
-Support list(Default on Debian):
+Image sensor support list(Default on Debian):
 
 1)OV5645:2592*1944@15fps,1920*1080@30fps,1280*960@30fps
 
@@ -34,12 +33,7 @@ See our ebay store for available items:
 https://www.ebay.com/sch/aiwills-8/m.html?item=253133569033&rt=nc&_trksid=p2047675.l2562
 
 
-
-Build and Flash
-
-  Refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/  for more building information      Note that official release removed camera nodes from device tree.We provide pre-built binaries for you to test cameras boards and also device tree file if you want to build driver by yourself
-
-P.S. For Linaro 16.06 release,official build supports our camera OV5645,it's enabled in device tree by default
+Check our pre-built sensor drivers for all avaiable cameras: 
 
 
 
