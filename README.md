@@ -1,5 +1,7 @@
 This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal of two CSI2 port support.Still,it's only for 96boards CE Edition.Our goal is to make Dragonboard support multiple CMOS image sensors,include SOC sensor and raw bayer sensor.
 
+P.S. AISTARVISION has joined Deltavision team which has the same passion and mission to bring camera to your project,making it smarter
+
 Sensor sample drivers available in Debian 16.09 for Dragonboard410C.
 
 https://github.com/Kevin-WSCU/Debian-169.git
@@ -29,17 +31,6 @@ Support list(Default on Debian):
 See our ebay store for available items:
 https://www.ebay.com/sch/aiwills-8/m.html?item=253133569033&rt=nc&_trksid=p2047675.l2562
 
-
-MIPI Adapter further update:V2.1,ETA,by the end of September
-
-1) Flexibility
-2) Mechinical(mounting hole)
-  
-  
-
-
-![img_1920](https://cloud.githubusercontent.com/assets/22780075/25014460/b3ec0d7c-202c-11e7-958e-fe873ddf64c9.JPG)
-
 a)Build and Flash
 
 Refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/  for more building information      Note that official release removed camera nodes from device tree.We provide pre-built binaries for you to test cameras boards and also device tree file if you want to build driver by yourself
@@ -51,29 +42,5 @@ b)Get the hardware
 Please go to our Ebay store for more details(Camera adapter and all kinds of sensor boards available)
 http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?ssPageName=STRK:MESE:IT
 
-1>Single camera support
-One OV5645/OV5640 auto focus module
-![img_1948](https://cloud.githubusercontent.com/assets/22780075/24592272/728c99a8-17c8-11e7-880a-757cf84d0f45.jpg)
 
-2>Dual camera support
-
-Two OV5645/OV5640 supported by AISTARVISION MIPI Adapter V2.0
-![img_1966](https://cloud.githubusercontent.com/assets/22780075/24592212/ca0ae0e6-17c7-11e7-9c82-a632147f91d1.jpg)
-![img_2757](https://user-images.githubusercontent.com/22780075/33484871-1995d09e-d659-11e7-8f82-563af56a1372.jpg)
-
-3>Camera boards
-
-a)OV5645/OV5640 camera board
-![img_2747](https://user-images.githubusercontent.com/22780075/33484778-9c73a5dc-d658-11e7-9f1c-f6b713015260.jpg)
-![img_2746](https://user-images.githubusercontent.com/22780075/33484779-9c8bbb90-d658-11e7-8e22-62d090da26c8.jpg)
-
-b)OV7251 camera board
-![img_3036](https://user-images.githubusercontent.com/22780075/33484593-d48f9d6e-d657-11e7-8bc2-e95f7a55fa2a.jpg)
-![img_3037](https://user-images.githubusercontent.com/22780075/33484594-d4a70c06-d657-11e7-93d9-1b4a8538450b.jpg)
-
-c)OV13850 camera board
-![img_3039](https://user-images.githubusercontent.com/22780075/33484595-d4bf315a-d657-11e7-8fdb-7c5f24f72d27.jpg)
-
-d)OV8865 camera board
-![img_3052](https://user-images.githubusercontent.com/22780075/33484596-d4d4db5e-d657-11e7-8e8b-168b933aff2a.jpg)
 
