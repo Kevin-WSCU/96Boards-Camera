@@ -2,11 +2,11 @@ This is the AISTARVISION MIPI Adapter,V2.0! It's updated from V1.0,with the goal
 
 P.S. AISTARVISION has joined DeltaVision team which has the same passion and mission to bring camera everywhere,making your project smarter than ever before.Take a look at our site for more interesting cameras:
 
+
 https://www.deltavision.io
 
-Sensor sample drivers available in Debian 16.09 for Dragonboard410C.
 
-https://github.com/Kevin-WSCU/Debian-169.git
+Sensor sample drivers available in Debian 16.09 for Dragonboard410C:[Dragonboard410C Camera](https://github.com/Kevin-WSCU/Debian-169.git)
 
 
 Image sensor support list(Default on Debian):
