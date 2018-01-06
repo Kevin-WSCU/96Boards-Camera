@@ -31,16 +31,14 @@ Support list(Default on Debian):
 See our ebay store for available items:
 https://www.ebay.com/sch/aiwills-8/m.html?item=253133569033&rt=nc&_trksid=p2047675.l2562
 
-a)Build and Flash
 
-Refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/  for more building information      Note that official release removed camera nodes from device tree.We provide pre-built binaries for you to test cameras boards and also device tree file if you want to build driver by yourself
 
-Note:for Linaro 16.06 release,official build supports our camera OV5645,it's enabled in device tree by default
+Build and Flash
 
-b)Get the hardware
+  Refer to https://builds.96boards.org/releases/dragonboard410c/linaro/debian/  for more building information      Note that official release removed camera nodes from device tree.We provide pre-built binaries for you to test cameras boards and also device tree file if you want to build driver by yourself
 
-Please go to our Ebay store for more details(Camera adapter and all kinds of sensor boards available)
-http://www.ebay.com/itm/96Boards-MIPI-Adapter-/252900099832?ssPageName=STRK:MESE:IT
+P.S. For Linaro 16.06 release,official build supports our camera OV5645,it's enabled in device tree by default
+
 
 
 
